@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.5);
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #ff69b4;
+    text-shadow: 2px 2px 5px #000;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .coin-display {
+    margin: 20px 0;
+  }
+  
+  .coin-image {
+    width: 100px;
+    height: 100px;
+    animation: spin 3s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .coin-value {
+    font-size: 1.5rem;
+    color: #ff69b4;
+  }
+  
+  button {
+    background: #ff69b4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #ff1493;
+  }
+  
+  .meme-text {
+    font-size: 1rem;
+    color: #ff69b4;
+    font-style: italic;
+    margin-top: 20px;
+  }
